@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website resmi Himpunan Mahasiswa Sipil Terapan (HMST) Universitas Negeri Jember. Informasi kegiatan, profil pengurus, alumni, dan dosen.">
+  <meta name="keywords" content="HMST, UNEJ, Teknik Sipil Terapan, Universitas Negeri Jember, Himpunan Mahasiswa">
+  <title>HMST UNEJ — Himpunan Mahasiswa Sipil Terapan</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons (CDN) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#beranda" class="nav-brand">
+        <img src="assets/logo.jpg" alt="Logo HMST UNEJ">
+        <span>HMST UNEJ</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#beranda" class="active">Beranda</a>
+        <a href="#update">HMST Update</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#staff">Profil Staff</a>
+      </div>
+
+      <div class="nav-hamburger" id="navHamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ============ HERO / BERANDA ============ -->
+  <section class="hero" id="beranda">
+    <div class="hero-bg">
+      <img src="assets/HMST.jpg" alt="Banner Teknik Sipil Terapan">
+    </div>
+
+    <div class="hero-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i data-lucide="graduation-cap"></i>
+          Universitas Negeri Jember
+        </div>
+
+        <h1>Himpunan Mahasiswa <span class="highlight">Sipil Terapan</span></h1>
+
+        <p class="hero-desc">
+          Membangun generasi insinyur sipil terapan yang kompeten, inovatif, dan berdaya saing tinggi 
+          melalui kebersamaan dan pengembangan diri.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#update" class="btn btn-primary">
+            <i data-lucide="newspaper"></i>
+            Lihat Update
+          </a>
+          <a href="#tentang" class="btn btn-outline">
+            <i data-lucide="info"></i>
+            Tentang Kami
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="number" data-target="250" data-suffix="+">0+</span>
+            <span class="label">Anggota Aktif</span>
+          </div>
+          <div class="hero-stat">
+            <span class="number" data-target="15" data-suffix="+">0+</span>
+            <span class="label">Program Kerja</span>
+          </div>
+          <div class="hero-stat">
+            <span class="number" data-target="500" data-suffix="+">0+</span>
+            <span class="label">Alumni</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="hero-image-wrapper">
+          <img src="assets/HMST.jpg" alt="Mahasiswa Teknik Sipil Terapan">
+        </div>
+        <!-- <div class="hero-float-card">
+          <div class="icon-circle">
+            <i data-lucide="award"></i>
+          </div>
+          <div class="card-text">
+            <strong>Terakreditasi</strong>
+            Program Studi Unggulan
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HMST UPDATE ============ -->
+  <section class="updates-section section-padding" id="update">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>HMST Update</h2>
+        <p>Berita terbaru, kegiatan, dan pengumuman dari Himpunan Mahasiswa Sipil Terapan UNEJ</p>
+      </div>
+
+      <div class="news-grid stagger-children">
+        <!-- Card 1 -->
+        <article class="news-card fade-up">
+          <div class="news-card-img">
+            <img src="assets/news-seminar.jpg" alt="Seminar Nasional">
+            <span class="badge">Seminar</span>
+          </div>
+          <div class="news-card-body">
+            <div class="news-card-date">
+              <i data-lucide="calendar" style="width:14px;height:14px;"></i>
+              5 Juli 2026
+            </div>
+            <h3>Seminar Nasional Teknik Sipil: Inovasi Infrastruktur Berkelanjutan</h3>
+            <p>HMST UNEJ sukses menyelenggarakan seminar nasional dengan pembicara dari Kementerian PUPR dan akademisi terkemuka membahas masa depan infrastruktur hijau.</p>
+          </div>
+          <div class="news-card-footer">
+            Baca Selengkapnya <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="news-card fade-up">
+          <div class="news-card-img">
+            <img src="assets/news-kunjungan.jpg" alt="Kunjungan Lapangan">
+            <span class="badge">Kunjungan</span>
+          </div>
+          <div class="news-card-body">
+            <div class="news-card-date">
+              <i data-lucide="calendar" style="width:14px;height:14px;"></i>
+              28 Juni 2026
+            </div>
+            <h3>Kunjungan Industri ke Proyek Jembatan Nasional Suramadu II</h3>
+            <p>Mahasiswa Teknik Sipil Terapan melakukan kunjungan industri untuk mengamati langsung proses konstruksi jembatan dan berdiskusi dengan para insinyur.</p>
+          </div>
+          <div class="news-card-footer">
+            Baca Selengkapnya <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="news-card fade-up">
+          <div class="news-card-img">
+            <img src="assets/news-seminar.jpg" alt="Lomba Jembatan">
+            <span class="badge">Kompetisi</span>
+          </div>
+          <div class="news-card-body">
+            <div class="news-card-date">
+              <i data-lucide="calendar" style="width:14px;height:14px;"></i>
+              15 Juni 2026
+            </div>
+            <h3>Tim HMST Raih Juara 2 Lomba Desain Jembatan Se-Jawa Timur</h3>
+            <p>Kebanggaan HMST UNEJ! Tim mahasiswa berhasil meraih juara 2 dalam kompetisi desain jembatan tingkat regional dengan inovasi struktur baja ringan.</p>
+          </div>
+          <div class="news-card-footer">
+            Baca Selengkapnya <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="news-card fade-up">
+          <div class="news-card-img">
+            <img src="assets/news-kunjungan.jpg" alt="Workshop AutoCAD">
+            <span class="badge">Workshop</span>
+          </div>
+          <div class="news-card-body">
+            <div class="news-card-date">
+              <i data-lucide="calendar" style="width:14px;height:14px;"></i>
+              1 Juni 2026
+            </div>
+            <h3>Workshop AutoCAD & SAP2000: Meningkatkan Kompetensi Digital</h3>
+            <p>HMST mengadakan pelatihan software teknik sipil untuk meningkatkan keterampilan mahasiswa dalam perencanaan dan analisis struktur.</p>
+          </div>
+          <div class="news-card-footer">
+            Baca Selengkapnya <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TENTANG KAMI ============ -->
+  <section class="about-section section-padding" id="tentang">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Tentang Kami</h2>
+        <p>Mengenal lebih dekat Himpunan Mahasiswa Sipil Terapan Universitas Negeri Jember</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: Description -->
+        <div class="about-text fade-up">
+          <h3>Siapa Kami?</h3>
+          <p>
+            Himpunan Mahasiswa Sipil Terapan (HMST) adalah organisasi kemahasiswaan di lingkungan 
+            Program Studi Teknik Sipil Terapan, Universitas Negeri Jember. Kami berdedikasi untuk 
+            menjadi wadah pengembangan potensi mahasiswa baik dalam bidang akademik, profesional, 
+            maupun sosial.
+          </p>
+          <p>
+            Melalui berbagai program kerja yang terstruktur, kami berupaya mencetak lulusan yang 
+            tidak hanya unggul secara teknis, tetapi juga memiliki jiwa kepemimpinan, kemampuan 
+            kolaborasi, dan kepedulian terhadap masyarakat.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="feature-icon">
+                <i data-lucide="book-open"></i>
+              </div>
+              <div>
+                <h4>Akademik</h4>
+                <p>Diskusi ilmiah, study group, dan pelatihan software teknik sipil</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">
+                <i data-lucide="users"></i>
+              </div>
+              <div>
+                <h4>Pengembangan Diri</h4>
+                <p>Seminar, workshop, dan pelatihan kepemimpinan untuk mahasiswa</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">
+                <i data-lucide="heart-handshake"></i>
+              </div>
+              <div>
+                <h4>Sosial & Pengabdian</h4>
+                <p>Bakti sosial dan kegiatan pengabdian masyarakat</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Visi & Misi -->
+        <div class="visi-misi-grid">
+          <div class="vm-card fade-up" style="grid-column: 1 / -1;">
+            <div class="vm-icon">
+              <i data-lucide="eye"></i>
+            </div>
+            <h3>Visi</h3>
+            <p>
+              Menjadikan HMST sebagai organisasi mahasiswa yang unggul, inovatif, dan profesional 
+              dalam mengembangkan potensi mahasiswa Teknik Sipil Terapan yang berdaya saing 
+              global dan berkontribusi bagi bangsa.
+            </p>
+          </div>
+
+          <div class="vm-card fade-up" style="grid-column: 1 / -1;">
+            <div class="vm-icon">
+              <i data-lucide="target"></i>
+            </div>
+            <h3>Misi</h3>
+            <ol>
+              <li>Meningkatkan kualitas akademik dan kompetensi mahasiswa di bidang teknik sipil terapan</li>
+              <li>Menyelenggarakan kegiatan yang mendukung pengembangan soft skills dan hard skills</li>
+              <li>Membangun jejaring dengan alumni, industri, dan institusi terkait</li>
+              <li>Menciptakan lingkungan organisasi yang inklusif, kolaboratif, dan berintegritas</li>
+              <li>Berkontribusi aktif dalam kegiatan sosial dan pengabdian masyarakat</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROFIL STAFF ============ -->
+  <section class="staff-section section-padding" id="staff">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Profil Staff</h2>
+        <p>Pengurus Himpunan Mahasiswa Sipil Terapan UNEJ periode 2025/2026</p>
+      </div>
+
+      <div class="people-grid stagger-children">
+        <!-- Ketua -->
+        <div class="person-card fade-up">
+          <div class="person-card-img">
+            <img src="https://i.pravatar.cc/300?img=11" alt="Ahmad Fauzi Rahman">
+          </div>
+          <div class="person-card-body">
+            <h3>Ahmad Fauzi Rahman</h3>
+            <p class="role">Ketua Umum</p>
+            <p class="detail">Teknik Sipil Terapan 2022</p>
+          </div>
+        </div>
+
+        <!-- Wakil Ketua -->
+        <div class="person-card fade-up">
+          <div class="person-card-img">
+            <img src="https://i.pravatar.cc/300?img=5" alt="Siti Nurhaliza">
+          </div>
+          <div class="person-card-body">
+            <h3>Siti Nurhaliza</h3>
+            <p class="role">Wakil Ketua</p>
+            <p class="detail">Teknik Sipil Terapan 2022</p>
+          </div>
+        </div>
+
+        <!-- Sekretaris -->
+        <div class="person-card fade-up">
+          <div class="person-card-img">
+            <img src="https://i.pravatar.cc/300?img=13" alt="Dimas Prasetyo">
+          </div>
+          <div class="person-card-body">
+            <h3>Dimas Prasetyo</h3>
+            <p class="role">Sekretaris</p>
+            <p class="detail">Teknik Sipil Terapan 2023</p>
+          </div>
+        </div>
+
+        <!-- Bendahara -->
+        <div class="person-card fade-up">
+          <div class="person-card-img">
+            <img src="https://i.pravatar.cc/300?img=9" alt="Anisa Dewi Lestari">
+          </div>
+          <div class="person-card-body">
+            <h3>Anisa Dewi Lestari</h3>
+            <p class="role">Bendahara</p>
+            <p class="detail">Teknik Sipil Terapan 2023</p>
+          </div>
+        </div>
+
+        <!-- Koordinator Akademik -->
+        <div class="person-card fade-up">
+          <div class="person-card-img">
+            <img src="https://i.pravatar.cc/300?img=15" alt="Rizky Maulana">
+          </div>
+          <div class="person-card-body">
+            <h3>Rizky Maulana</h3>
+            <p class="role">Koordinator Akademik</p>
+            <p class="detail">Teknik Sipil Terapan 2022</p>
+          </div>
+        </div>
+
+        <!-- Humas -->
+        <div class="person-card fade-up">
+          <div class="person-card-img">
+            <img src="https://i.pravatar.cc/300?img=10" alt="Putri Amelia">
+          </div>
+          <div class="person-card-body">
+            <h3>Putri Amelia</h3>
+            <p class="role">Koordinator Humas</p>
+            <p class="detail">Teknik Sipil Terapan 2023</p>
+          </div>
+        </div>
+
+        <!-- Minat Bakat -->
+        <div class="person-card fade-up">
+          <div class="person-card-img">
+            <img src="https://i.pravatar.cc/300?img=33" alt="Bayu Saputra">
+          </div>
+          <div class="person-card-body">
+            <h3>Bayu Saputra</h3>
+            <p class="role">Koordinator Minat & Bakat</p>
+            <p class="detail">Teknik Sipil Terapan 2023</p>
+          </div>
+        </div>
+
+        <!-- Sosial -->
+        <div class="person-card fade-up">
+          <div class="person-card-img">
+            <img src="https://i.pravatar.cc/300?img=20" alt="Farah Nabila">
+          </div>
+          <div class="person-card-body">
+            <h3>Farah Nabila</h3>
+            <p class="role">Koordinator Sosial</p>
+            <p class="detail">Teknik Sipil Terapan 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KRITIK & SARAN ============ -->
+  <section class="feedback-section section-padding" id="kritik-saran">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Kritik & Saran</h2>
+        <p>Sampaikan masukan Anda untuk membantu kami menjadi lebih baik</p>
+      </div>
+
+      <div class="feedback-form-wrapper fade-up">
+        <form class="feedback-form" id="feedbackForm" novalidate>
+          <div class="form-group">
+            <label for="feedbackEmail">
+              <i data-lucide="mail" style="width:14px;height:14px;display:inline;vertical-align:middle;"></i>
+              Alamat Email
+            </label>
+            <input type="email" id="feedbackEmail" placeholder="contoh@email.com" required>
+            <p class="error-msg">Masukkan alamat email yang valid</p>
+          </div>
+
+          <div class="form-group">
+            <label for="feedbackMessage">
+              <i data-lucide="message-square" style="width:14px;height:14px;display:inline;vertical-align:middle;"></i>
+              Pesan
+            </label>
+            <textarea id="feedbackMessage" placeholder="Tulis kritik, saran, atau masukan Anda di sini..." required></textarea>
+            <p class="error-msg">Pesan tidak boleh kosong</p>
+          </div>
+
+          <button type="submit" class="btn-submit">
+            <i data-lucide="send" style="width:18px;height:18px;"></i>
+            Kirim Pesan
+          </button>
+        </form>
+
+        <div class="form-success" id="formSuccess">
+          <div class="success-icon">
+            <i data-lucide="check-circle"></i>
+          </div>
+          <h3>Terima Kasih!</h3>
+          <p>Pesan Anda telah berhasil dikirim. Kami sangat menghargai masukan Anda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <img src="assets/logo.jpg" alt="Logo HMST UNEJ">
+          <h3>HMST UNEJ</h3>
+          <p>Himpunan Mahasiswa Sipil Terapan, Universitas Negeri Jember. Membangun generasi insinyur sipil terapan yang kompeten dan berdaya saing.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4>Navigasi</h4>
+          <ul class="footer-links">
+            <li><a href="#beranda"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> Beranda</a></li>
+            <li><a href="#update"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> HMST Update</a></li>
+            <li><a href="#tentang"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> Tentang Kami</a></li>
+            <li><a href="#staff"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> Profil Staff</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div>
+          <h4>Ikuti Kami</h4>
+          <p style="font-size:0.875rem;color:rgba(240,243,250,0.6);margin-bottom:16px;">Tetap terhubung melalui media sosial kami</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/hmst.unej" target="_blank" rel="noopener noreferrer" aria-label="Instagram HMST UNEJ">
+              <i data-lucide="instagram"></i>
+            </a>
+            <a href="https://vt.tiktok.com/ZSCoVULDy/" target="_blank" rel="noopener noreferrer" aria-label="TikTok HMST UNEJ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/>
+              </svg>
+            </a>
+            <a href="https://hmstunej.taplink.site" target="_blank" rel="noopener noreferrer" aria-label="Taplink HMST UNEJ">
+              <i data-lucide="link"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 HMST UNEJ — Himpunan Mahasiswa Sipil Terapan, Universitas Negeri Jember</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+    <i data-lucide="chevron-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+  </script>
+</body>
+</html>
