@@ -544,7 +544,7 @@ ul {
 }
 
 .news-card {
-  background: var(--color-1);
+  background: #555667;
   border-radius: var(--radius-lg);
   overflow: hidden;
   border: 1px solid var(--color-2);
@@ -604,7 +604,7 @@ ul {
 .news-card-body h3 {
   font-size: 1.1rem;
   font-weight: 700;
-  color: var(--color-6);
+  color: var(--white);
   margin-bottom: 10px;
   line-height: 1.5;
   display: -webkit-box;
@@ -615,7 +615,7 @@ ul {
 
 .news-card-body p {
   font-size: 0.9rem;
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.8);
   line-height: 1.7;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -787,7 +787,7 @@ ul {
 }
 
 .person-card {
-  background: var(--color-1);
+  background: #555667;
   border-radius: var(--radius-lg);
   overflow: hidden;
   border: 1px solid var(--color-2);
@@ -843,20 +843,20 @@ ul {
 .person-card-body h3 {
   font-size: 1.05rem;
   font-weight: 700;
-  color: var(--color-6);
+  color: var(--white);
   margin-bottom: 4px;
 }
 
 .person-card-body .role {
   font-size: 0.85rem;
-  color: var(--color-5);
+  color: rgba(255, 255, 255, 0.9);
   font-weight: 500;
   margin-bottom: 8px;
 }
 
 .person-card-body .detail {
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.75);
   line-height: 1.5;
 }
 
