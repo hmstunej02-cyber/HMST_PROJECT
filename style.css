@@ -362,7 +362,7 @@ ul {
 .hero h1 {
   font-size: 3.5rem;
   font-weight: 900;
-  color: var(--white);
+  color: #F8D19F;
   line-height: 1.15;
   margin-bottom: 20px;
   letter-spacing: -1px;
@@ -643,7 +643,17 @@ ul {
    TENTANG KAMI
    ============================================ */
 .about-section {
-  background: var(--color-1);
+  background: #555667;
+}
+
+.about-section .section-header h2,
+.about-section .about-text h3 {
+  color: var(--white);
+}
+
+.about-section .section-header p,
+.about-section .about-text p {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .about-grid {
